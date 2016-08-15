@@ -5,8 +5,7 @@
 <title>Flynn's Arcade Games</title>
 <style type="text/css">
 body {
-    background-color:black;	
-	
+	background-color: black;
 }
 #container {
 	margin-right: auto;
@@ -194,12 +193,13 @@ header {
 * html #menu-bar {
   height: 1%;
 }
-#Side Content Img {
+/*#Side Content Img {
 	height: auto;
 	width: 200px;
 	border-width: 0px;
 	border-style: solid;
 }
+*/
 #HeaderLogo {
 	height: 100px;
 	width: 800px;
@@ -208,6 +208,16 @@ header {
 	border-width: 0px;
 	border-style: solid;
 }
+#Content Right {
+	height: auto;
+	width: 400px;
+	margin-right: auto;
+	margin-left: auto;
+	border-width: 0px;
+	border-style: solid;
+	right: 0px;
+}
+
 </style>
 </head>
 
@@ -222,8 +232,9 @@ header {
   
      </div>
   </div>
-    <div id="NavBar"><ul id="menu-bar">
- <li class="active"><a href="#">Home</a></li>
+    <div id="NavBar">
+      <ul id="menu-bar">
+        <li class="active"><a href="#">Home</a></li>
  <li><a href="#">Consoles</a>
   <ul>
    <li><a href="#">Legacy Consoles</a></li>
@@ -241,12 +252,8 @@ header {
  <li><a href="#">About</a></li>
  <li><a href="#">Contact Us</a></li>
 </ul></div>
-<div id="Main">
-       
-    
-    <div id="Side Content"><img src ="img/wpid-img_20150608_151533198.png"></div>
-  </div>
-   <div id="Footer"></div>
+<div id="Main"></div>
+<div id="Footer"><div id="Content Right"><img src="img/wpid-img_20150608_151533198.png"></div></div>
 </div>
 </body>
 </html>

@@ -34,6 +34,8 @@ header {
 	width: 800px;
 	border-width: 0px;
 	border-style: solid;
+	margin-left: auto;
+	margin-right: auto;
 }
 #Footer {
 	height: 50px;
@@ -208,16 +210,31 @@ header {
 	border-width: 0px;
 	border-style: solid;
 }
-#Content Right {
+#ContentRight {
 	height: auto;
-	width: 400px;
+	width: 300px;
 	margin-right: auto;
 	margin-left: auto;
 	border-width: 0px;
 	border-style: solid;
 	right: 0px;
+	color: #FFFFFF;
+	float: right;
+	text-align: left;
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+	font-style: oblique;
+	text-decoration: none;
 }
 
+#ImgLeft {
+	float: left;
+	height: auto;
+	width: 500px;
+	margin-right: auto;
+	margin-left: auto;
+	border-width: 0px;
+	border-style: solid;
+}
 </style>
 </head>
 
@@ -230,7 +247,7 @@ header {
       <img src = "img/flynnbannergif.gif" width = "800px" height = "100px"/>
   
   
-     </div>
+    </div>
   </div>
     <div id="NavBar">
       <ul id="menu-bar">
@@ -252,8 +269,15 @@ header {
  <li><a href="#">About</a></li>
  <li><a href="#">Contact Us</a></li>
 </ul></div>
-<div id="Main"></div>
-<div id="Footer"><div id="Content Right"><img src="img/wpid-img_20150608_151533198.png"></div></div>
+<div id="Main">
+  <div id="ImgLeft"><img src="img/wpid-img_20150608_151533198.png"></div>
+  <div id="ContentRight">
+    <p>welcome to flynns Arcade created by Kevin Flynn<Br></p>
+  </div>
+  </div>
+  <div id="Footer">
 </div>
+</div>
+
 </body>
 </html>
